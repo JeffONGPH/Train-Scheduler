@@ -30,6 +30,7 @@
     var frequency = $("#frequency").val().trim()
 
     var newTrain = {
+      id: trainName,
       name: trainName,
       destin: destination,
       first: firstTrain,
